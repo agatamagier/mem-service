@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "Mem 1",
+        "upvotes": 0,
+        "downvotes": 0,
+        "img": "/assets/img1.jpg",
+        "star": false
+    },
+    {
+        "id": 2,
+        "title": "Mem 2",
+        "upvotes": 0,
+        "downvotes": 0,
+        "img": "/assets/img2.jpg",
+        "star": false
+    },
+    {
+        "id": 3,
+        "title": "Mem 3",
+        "upvotes": 0,
+        "downvotes": 0,
+        "img": "/assets/img3.jpg",
+        "star": false
+    },
+    {
+        "id": 4,
+        "title": "Mem 4",
+        "upvotes": 0,
+        "downvotes": 0,
+        "img": "/assets/img4.jpg",
+        "star": false
+    },
+    {
+        "id": 5,
+        "title": "Mem 5",
+        "upvotes": 0,
+        "downvotes": 0,
+        "img": "/assets/img5.jpg",
+        "star": false
+    },
+    {
+        "id": 6,
+        "title": "Mem 6",
+        "upvotes": 0,
+        "downvotes": 0,
+        "img": "/assets/img6.jpg",
+        "star": false
+    },
+    {
+        "id": 7,
+        "title": "Mem 7",
+        "upvotes": 0,
+        "downvotes": 0,
+        "img": "/assets/img7.jpg",
+        "star": false
+    },
+    {
+        "id": 8,
+        "title": "Mem 8",
+        "upvotes": 0,
+        "downvotes": 0,
+        "img": "/assets/img8.jpg",
+        "star": false
+    },
+    {
+        "id": 9,
+        "title": "Mem 9",
+        "upvotes": 0,
+        "downvotes": 0,
+        "img": "/assets/img9.jpg",
+        "star": false
+    },
+    {
+        "id": 10,
+        "title": "Mem 10",
+        "upvotes": 0,
+        "downvotes": 0,
+        "img": "/assets/img10.jpg",
+        "star": false
+    },
+    {
+        "id": 11,
+        "title": "Mem 11",
+        "upvotes": 0,
+        "downvotes": 0,
+        "img": "/assets/img11.jpg",
+        "star": false
+    },
+    {
+        "id": 17,
+        "title": "Mem 17",
+        "upvotes": 0,
+        "downvotes": 0,
+        "img": "/assets/img17.jpg",
+        "star": false
+    }
+]

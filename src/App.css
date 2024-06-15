@@ -1,0 +1,229 @@
+.App {
+  text-align: center;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+main {
+  margin-bottom: 75px;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.navbar li {
+  list-style: none;
+
+  border-radius: 8px;
+  padding: 12px;
+  background-color: rgb(241, 96, 76);
+}
+@media screen and (max-width: 486px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 5px;
+    align-items: stretch;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  .navbar li {
+    padding: 4px;
+    font-size: 14px;
+  }
+}
+
+.navbar li:hover {
+  background-color: rgb(242, 14, 14);
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+}
+.regular-header {
+  transform: translateY(-69px);
+  z-index: -10;
+  position: relative;
+}
+.regular-header img {
+  width: 100%;
+  position: relative;
+  filter: opacity(0.7) grayscale(0.7);
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid green;
+  max-width: 350px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 30px;
+}
+@media screen and (max-width: 486px) {
+  .form {
+    width: 70%;
+  }
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  font-size: 10px;
+}
+.form button {
+  color: white;
+  background: rgba(0, 128, 0, 0.702);
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.form button:hover {
+  background: green;
+}
+.form input[type="text"] {
+  width: 100%;
+  border: 1px solid grey;
+  padding: 8px;
+  border-radius: 20px;
+}
+.heading {
+  color: rgb(51, 48, 48);
+  font-size: 22px;
+  margin: 44px 0px;
+}
+.heading span {
+  font-size: 30px;
+  color: red;
+  letter-spacing: 5px;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+.error-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 4px;
+  transform: rotate(12deg);
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  max-width: 900px;
+  margin: 0px auto;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+.mem-container {
+  max-width: 350px;
+  border: 1px solid #dad5d5;
+  border-bottom: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-height: 400px;
+  justify-content: space-around;
+  position: relative;
+}
+.mem-container img {
+  width: 100%;
+  max-height: 250px;
+  border-radius: 10px;
+}
+.mem-votes {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+.mem-container h3 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 24px;
+}
+.vote-up,
+.vote-down {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  font-size: 16px;
+}
+.mem-votes button {
+  border: none;
+  cursor: pointer;
+  padding: 0px 0px 4px;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 75%;
+  font-size: 24px;
+}
+.img-wrapper {
+  height: 250px;
+  display: flex;
+}
+.vote-up {
+  background-color: rgb(63, 168, 63);
+  border-radius: 10px;
+}
+.vote-up:hover,
+.vote-up button:hover {
+  background-color: green;
+}
+.vote-down {
+  background-color: rgb(241, 96, 76);
+  border-radius: 10px;
+}
+.vote-down:hover,
+.vote-down button:hover {
+  background-color: rgb(242, 14, 14);
+}
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  font-size: 9px;
+}
+footer p {
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+  padding: 15px;
+}
+.star {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -19px;
+}
